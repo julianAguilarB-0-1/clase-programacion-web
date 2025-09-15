@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+body {
+  background-image: url("/assets/imgHeroes/fondo.jpg");   
+  background-repeat: no-repeat;         
+  background-size: cover;                
+  background-position: center;          
+  background-attachment: fixed;
+  text-align: center;     
+}
+
+.image{
+    border-radius: 20px;
+
+}
+.img{
+    display: block;
+    margin: 0 auto;
+    max-width: auto;
+    height: 300px;
+
+
+}
+
+.tarjeta{
+    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
+    overflow: hidden;
+    max-width: 330px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+}       
+
+.disp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    font-style: italic;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-transform: initial;
+}
+
+li{
+    display: inline;
+    margin: 2em;
+    padding: 10px,30px;
+    
+}
+li a{
+
+    text-decoration: none;
+}
