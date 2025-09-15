@@ -7,49 +7,14 @@ body {
   background-position: center;          
   background-attachment: fixed;
   text-align: center;     
-}
-
-.image{
-    border-radius: 20px;
-
-}
-.img{
-    display: block;
-    margin: 0 auto;
-    max-width: auto;
-    height: 300px;
-
-
-}
-
-.tarjeta{
-    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
-    overflow: hidden;
-    max-width: 330px;
-    height: 100%;
-    margin: auto;
-    text-align: center;
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: green;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: white;
-}       
-
-.disp{
-    display: flex;
-    justify-content: space-evenly;
+  font-family: "Story Script";
 }
 
 ul{
 
     text-align: center;
     padding: 10px;
-    background-color: green;
-    font-style: italic;
-    font-family: 'Roboto';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     text-transform: initial;
 }
@@ -63,4 +28,81 @@ li{
 li a{
 
     text-decoration: none;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: darkgreen;
+}
+
+header{
+    padding: 150px;
+    background-image: url(/assets/imgHeroes/fondoheader.webp);
+    background-repeat: no-repeat;
+    background-position: center;       
+    background-attachment: scroll;
+    text-align: right;
+}
+
+
+.img{
+    display: block;
+    margin: 0 auto;
+    max-width: auto;
+    height: 300px;
+
+
+}
+
+.tarjeta{
+
+    overflow: hidden;
+    max-width: auto;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    border: 4px solid;
+    border-radius: 10px;
+    border-color: green white red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+} 
+.tarjeta2{
+    max-width: auto;
+    margin: auto;
+    text-align: justify;
+    border: 4px solid;
+    border-radius: 20px;
+    border-color: green white red ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+} 
+
+
+.disp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
 }
