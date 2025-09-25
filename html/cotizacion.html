@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/cotizacion.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="img" src="/assets/imgFormularios/logoEmpresa.jpg" alt="">
+        <h2>Cotización</h2>
+    </header>
+    <nav>
+        <li><a href="/index.html">Index</a></li>
+    </nav>
+    <section class="tarjeta">
+
+        <!-- 2  -->
+        <form action="https://formsubmit.co/jv807867@gmail.com" method="post">
+            <!-- 3. a) -->
+            <h2>Datos del Cliente</h2>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" minlength="3" placeholder="Escribe tu nombre" required>
+            <br>
+            <label for="Email">Email</label>
+            <input type="Email" name="Email" id="Email" placeholder="Escribe tu email" required>
+            <br>
+            <label for="Poblacion">Población</label>
+            <input type="text" name="Poblacion" id="Poblacion" placeholder="Escribe la poblacion" obligatorio>
+            <br>
+            <label for="Edad">Edad</label>
+            <input type="number" name="Edad" id="Edad" min="18" max="100" required>
+
+            <!-- 3. b) -->
+            <h2>Selección de Automóvil</h2>
+            <label for="eleccion">Elija el modelo que desee:</label>
+            <select name="Automóvil" id="Automóvil">
+                <option value="Toyota Corola">Toyota Corola</option>
+                <option value="Toyota Yaris">Toyota Yaris</option>
+                <option value="Toyota Prius">Toyota Prius</option>
+                <option value="Nissan Frontier">Nissan Frontier</option>
+                <option value="Nissan Sentra">Nissan Sentra</option>
+                <option value="Nissan Versa">Nissan Versa</option>
+                <option value="Ford Mustang">Ford Mustang</option>
+                <option value="Ford Bronco">Ford Bronco</option>
+                <option value="Ford Explorer">Ford Explorer</option>
+            </select>
+
+            <!-- 3. c) -->
+            <h2>Condiciones de pago</h2>
+            <label for="porcentaje">Porcentaje de pago inicial</label>
+            <input type="number" name="Porcentaje" id="Porcentaje" min="10" max="100" placeholder="Porcentaje(10-100)">
+            <br>
+            <label for="plazo">Plazo a pagar</label> <br>
+
+            <input type="radio" name="plazo" id="plazo12" value="12 meses" checked>
+            <label for="plazo12">12 meses</label>
+
+            <input type="radio" name="plazo" id="plazo24" value="24 meses">
+            <label for="plazo24">24 meses</label>
+
+            <input type="radio" name="plazo" id="plazo36" value="36 meses">
+            <label for="plazo36">36 meses</label>
+
+            <input type="radio" name="plazo" id="plazo48" value="48 meses">
+            <label for="plazo48">48 meses</label>
+
+            <input type="radio" name="plazo" id="plazo60" value="60 meses">
+            <label for="plazo60">60 meses</label>
+
+
+            <!-- 3. d) -->
+            <textarea name="Comentarios" id="Comentarios" cols="50" maxlength="200"
+                placeholder="Escribe aqui tus comentarios..."></textarea>
+            <br>
+            <!-- 4. -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+*{
+
+    margin: 10px;
+}
+
+body {
+
+    font-family: "Smooch Sans";
+    background-color:black;
+    background-size: cover;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.tarjeta {
+    flex-direction: column;
+    justify-content: start;
+    background-color: white;
+    border-radius: 8px;
+    padding :20px;
+    margin-bottom: 20px;
+    text-align: start;
+    width: 600px;
+    height: 700px;
+    color: black;
+    margin: 0 auto;
+}
+
+.img {
+    position:absolute;
+    left: 90px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-color: #007BEF;
+    font-size: 30px;
+}  
+
+button{
+
+    width: 90%;
+    height: 40px;
+    background-color: #007BEF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+button:hover {
+    background-color: black;   
+}
+
+
+li{
+    display: inline;
+    margin: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: #007BEF;
+    font-size: 50px;
+}
