@@ -17,16 +17,27 @@ header{
 
     width: auto;
     height: 15%;
-    /*background-color: rgb(43, 20, 2);*/
     background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 36px;
+}
+
+nav{
+    background-color: rgb(114, 61, 1);
+    height: 5%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 ul{
 
     display:inline;
     width: auto;
-    height: 5%;
     padding: 0px;
+    font-size: 20px;
 }
 
 li a{
@@ -41,8 +52,9 @@ li a:hover{
 aside{
 
     width: 35%;
+    height: auto;
     text-align: justify;
-    background-color: aqua;
+    background-color: rgb(32, 19, 0);
 }
 
 .asside{
@@ -54,7 +66,7 @@ aside{
 section{
 
     width: 64%;
-    height: 64%;
+    height: auto;
     background-color:rgb(32, 19, 0);
 }
 
@@ -77,22 +89,30 @@ section{
     display: inline;
 }
 
-.imagen{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    border: 1px solid;
 
-}
-
-.imagen img{
+.img{
     width: 100px;
     height: 100px;
-    object-fit: contain;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.imagen2{
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    margin-bottom: 70px;
+
 }
 
 footer{
 
     background-color: black;
+    margin-top: 0;
+    height: 10%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
