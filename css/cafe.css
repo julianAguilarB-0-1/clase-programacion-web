@@ -1,1 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body{
+
+    font-family: "Playfair Display";
+    color: white;
+    width: 900px;
+    height: 1000px;
+    text-align: center;
+    background-color: rgb(88, 40, 1);
+    justify-content: center;
+    margin: 0 auto;
+}
+
+header{
+
+    width: auto;
+    height: 15%;
+    /*background-color: rgb(43, 20, 2);*/
+    background-color: black;
+}
+
+ul{
+
+    display:inline;
+    width: auto;
+    height: 5%;
+    padding: 0px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+
+    color: aqua;
+}
+
+aside{
+
+    width: 35%;
+    text-align: justify;
+    background-color: aqua;
+}
+
+.asside{
+    margin-left: 50px;
+    padding: 10;
+    font-display:center;
+}
+
+section{
+
+    width: 64%;
+    height: 64%;
+    background-color:rgb(32, 19, 0);
+}
+
+.sect{
+    margin-left: 30px;
+    width: 500px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.prueba{
+
+    justify-content: space-evenly;
+    align-items:stretch;
+    display: flex;
+}
+
+.lia{
+    text-align: center;
+    display: inline;
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid;
+
+}
+
+.imagen img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+footer{
+
+    background-color: black;
+}
