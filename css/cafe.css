@@ -8,28 +8,34 @@ body{
     width: 900px;
     height: 1000px;
     text-align: center;
-    background-color: rgb(88, 40, 1);
     justify-content: center;
     margin: 0 auto;
 }
 
-header{
-
+#Encabezado{
     width: auto;
+    
+}
+.encabezado{
+
     height: 15%;
-    background-color: black;
+    background-color: rgb(88, 40, 1);
     display: flex;
     justify-content: center; 
     align-items: center;
     font-size: 36px;
 }
 
-nav{
+#Barra-de-navegacion{
     background-color: rgb(114, 61, 1);
     height: 5%;
     display: flex;
     justify-content: center; 
     align-items: center;
+}
+.lia{
+    text-align: center;
+    display: inline;
 }
 
 ul{
@@ -49,7 +55,7 @@ li a:hover{
     color: aqua;
 }
 
-aside{
+#Aside{
 
     width: 35%;
     height: auto;
@@ -63,11 +69,12 @@ aside{
     font-display:center;
 }
 
-section{
+#Seccion{
 
     width: 64%;
     height: auto;
     background-color:rgb(32, 19, 0);
+    margin-right: 10px;
 }
 
 .sect{
@@ -82,11 +89,6 @@ section{
     justify-content: space-evenly;
     align-items:stretch;
     display: flex;
-}
-
-.lia{
-    text-align: center;
-    display: inline;
 }
 
 
@@ -106,12 +108,10 @@ section{
 
 }
 
-footer{
+#Pie-de-pagina{
 
-    background-color: black;
-    margin-top: 0;
+    background-color: rgb(88, 40, 1);
     height: 10%;
-    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
