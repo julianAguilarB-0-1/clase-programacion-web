@@ -1,58 +1,33 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* selector Universal*/
-*{
+* {
     margin: 0;
     padding: 0;
-    text-align: center;
+
+    text-decoration: none;
+    list-style: none;
 }
 
 
 /* selector de tipo*/
-body{
+body {
 
     background-color: #30b3ff;
     color: white;
 }
-ul{
 
-    text-align: center;
-    padding: 10px;
-    font-family: 'Roboto';
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-li{
-    display: inline;
-    margin: 3em;
-    padding: 10px,30px;
-    
-}
-li a{
-
-    text-decoration: none;
-}
-
-li a:hover {
-
-    color: crimson;
-    font-size: 30px;
-
-}
-
-hr{
+hr {
 
     border: none;
     height: 4px;
     background-color: black;
-    box-shadow: 0px 2px 5px rgba(0,0,0,3);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 3);
     margin: 20px 0;
 }
 
 /* Selector ID*/
-#contenedor{
+#contenedor {
     width: auto;
     height: auto;
     background: rgb(201, 218, 255);
@@ -63,7 +38,7 @@ hr{
 
 }
 
-.contenedorproducts{
+.contenedorproducts {
     width: auto;
     height: auto;
     background: blueviolet;
@@ -76,46 +51,23 @@ hr{
 
 }
 
-#encabezado{
-
-    width: auto;
-    height: auto;
-    background-color: #00153b;
-    margin: 1em;
-    text-align: center;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 17px;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    border-radius: 20px;
-    box-shadow: 0px 2px 6px 0px #371e3d;
-}
 /*Selector de clase*/
-.imagen{
+.imagen {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 
 }
-.imagen img{
+
+.imagen img {
     width: 300px;
     height: 100px;
     object-fit: contain;
 }
 
 
-
-.menu{
-    height: auto;
-    width: 90%;
-    background-color: #82adab;
-    margin: 1em;
-    border-radius: 4px;
-}
-
-.imglogo{
+.imglogo {
     display: block;
     margin: 0 auto;
     max-width: 600px;
@@ -123,6 +75,7 @@ hr{
 
 
 }
+
 .modelo {
 
     padding: 10px;
@@ -135,7 +88,8 @@ hr{
     color: black;
 
 }
-.descripcion{
+
+.descripcion {
 
     font-family: "Roboto";
     font-weight: 400px;
@@ -149,7 +103,8 @@ hr{
     width: 260px;
 
 }
-.boton{
+
+.boton {
     border: none;
     outline: 0;
     display: inline-block;
@@ -160,28 +115,30 @@ hr{
     width: 100%;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-.boton:hover{
+
+.boton:hover {
 
     background-color: #000;
     color: white;
-    transform: scale(1,1);
+    transform: scale(1, 1);
     transform: all 0.3s ease;
 }
 
-.footer{
+.footer {
     background-color: #222;
     color: white;
     text-align: center;
     padding: 20px 10px;
-    
+
 
 }
-.tarjeta{
+
+.tarjeta {
 
     box-shadow: 0px 4px 8px purple;
-    overflow:  hidden;
+    overflow: hidden;
     max-width: 330px;
     height: 100%;
     margin: auto;
@@ -192,4 +149,114 @@ hr{
     border: transparent;
     margin-top: 50px;
     background-color: white;
+}
+
+/*Práctica Menu*/
+
+.header {
+
+    width: auto;
+    height: auto;
+    background-color: #00153b;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.espacio {
+
+    margin-top: 120px;
+}
+
+.logo {
+
+    font-family: 'Roboto';
+    font-size: 27px;
+    color: white;
+    font-weight: 800;
+}
+
+.header .navbar ul li {
+
+    position: relative;
+    float: left;
+}
+
+.header .navbar ul li a {
+
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-family: 'Roboto';
+}
+
+.header .navbar ul li a:hover {
+
+    color: blueviolet;
+    font-size: 20px;
+}
+
+#menu {
+
+    display: none;
+}
+
+.menu-icon {
+
+    width: 25px;
+}
+
+.header label {
+
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:660px) {
+
+    .header {
+        padding: 30px;
+    }
+
+    .header label {
+        display: initial;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(5, 5, 4);
+        display: none;
+    }
+
+    .espacio {
+
+        margin-top: 220px;
+    }
+
+    .header .navbar ul li {
+        width: 100%;
+    }
+
+    .header:checked~.navbar {
+        display: initial;
+    }
+
+    .imglogo {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+
+
+}
 }
