@@ -234,7 +234,7 @@ hr {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: rgb(5, 5, 4);
+        background-color: #002261;
         display: none;
     }
 
@@ -247,16 +247,33 @@ hr {
         width: 100%;
     }
 
-    .header:checked~.navbar {
+    #menu:checked~.navbar {
         display: initial;
     }
 
+
     .imglogo {
-    display: block;
-    margin: 0 auto;
-    max-width: 300px;
-    height: auto;
+        display: block;
+        margin: 0 auto;
+        max-width: 300px;
+        height: auto;
+    }
 
+    /*Acomodar carros*/
 
-}
+    .contenedorproducts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta {
+        max-width: 90%;
+        margin: 20px 0;
+    }
+
+    .descripcion {
+        width: auto;
+        height: auto;
+    }
+
 }
