@@ -32,7 +32,7 @@ function minu() {
 
 function agregartexto() {
     let text = txtTexto.value;
-    parrafo.innerText = parrafo.innerText + text;
+    parrafo.innerText = parrafo.innerText + " " + text;
 
 }
 
