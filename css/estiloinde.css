@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 body {
-  background-image: url("/assets/imgHeroes/fondo.jpg");   
+  background-image: url("../assets/imgHeroes/fondo.jpg");   
   background-repeat: no-repeat;         
   background-size: cover;                
   background-position: center;          
@@ -41,7 +41,7 @@ nav ul li a:hover {
 
 header{
     padding: 150px;
-    background-image: url(/assets/imgHeroes/fondoheader.webp);
+    background-image: url(../assets/imgHeroes/fondoheader.webp);
     background-repeat: no-repeat;
     background-position: center;       
     background-attachment: scroll;
