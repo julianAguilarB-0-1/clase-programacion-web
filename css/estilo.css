@@ -274,6 +274,7 @@ hr {
     .descripcion {
         width: auto;
         height: auto;
+        font-size: 10px;
     }
 
 }
