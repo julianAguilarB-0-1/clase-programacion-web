@@ -58,5 +58,3 @@ function regresar() {
 
 btnJustificar.addEventListener('click', justificar);
 btnQuitar.addEventListener('click', regresar);
-
-
