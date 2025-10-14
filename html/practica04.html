@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica IV JavaScript</title>
+</head>
+
+
+<style>
+    body {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 20px;
+        max-width: 400px;
+        margin: auto;
+    }
+    ul{
+        text-decoration: none;
+    }
+
+    input, button {
+        margin: 8px 0;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #resultado {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: darkgrey;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <h1>Calculadora de IMC</h1>
+
+    <nav>
+        <ul>
+            <li><a href="../html/JS.html">Inicio</a></li>
+        </ul>
+    </nav>
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso" placeholder="Ej: 70" step="0.01">
+
+    <label for="altura">Altura (m):</label>
+    <input type="number" id="altura" placeholder="Ej: 1.83" step="0.01">
+
+    <button id="btnCalcular" >Calcular IMC</button>
+    <div id="resultado" ></div>
+
+
+    <script src="../js/practica04.js"> </script>
+
+</body>
+
+</html>
