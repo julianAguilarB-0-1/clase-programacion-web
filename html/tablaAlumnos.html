@@ -3,14 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla Alumnos</title>
+    <title>Tabla Dinamica</title>
+
+    <style>
+        body{ font-family:'Times New Roman', Times, serif; padding: 20 px; text-align: center;}
+        input{ margin: 5 px; padding: 5 px; }
+        table{ width: 100%; border-collapse: collapse; margin-top: 20 px; margin-top: 10px; }
+        th,td{ border: 1px solid #cbf7ff; padding: 8 px; text-align: center; }
+        th{ background-color: rgb(0, 174, 255); }
+        .btn{ padding: 6px 12px; cursor: pointer; }
+        li{ display: inline; text-align: center;} li a {text-decoration: none;}
+    </style>
+
 </head>
 <body>
      <nav>
         <ul>
-            <li><a href="../html/JS.html">Inicio</a></li>
+            <li><a href="../html/JS.html">INICIO</a></li>
         </ul>
     </nav>
-    
+
+    <center>
+        <h2>Agregar estudiantes</h2>
+    </center>
+
+    <label>ID:</label>
+    <input type="text" id="idInput" placeholder="ID">
+
+    <label>Nombre:</label>
+    <input type="text" id="nombreInput" placeholder="Nombre">
+
+    <label>Escuela</label>
+    <input type="text" id="escuelaInput" placeholder="Escuela">
+
+    <button id="btnAgregar" class="btn">Agregar</button>
+
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NOMBRE</th>
+                <th>ESCUELA</th>
+            </tr>
+        </thead>
+        <tbody id="tablaBody">
+        </tbody>
+    </table>
 </body>
+<script src="../js/tablas.js" ></script>
 </html>
