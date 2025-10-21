@@ -1,0 +1,12 @@
+[
+    { "id": 1, "nombre": "Abril Mendoza", "escuela": "UPSIN" },
+    { "id": 2, "nombre": "Armando López", "escuela": "UAS" },
+    { "id": 3, "nombre": "Antonella Ruiz", "escuela": "ITMAZ" },
+    { "id": 4, "nombre": "Leo García", "escuela": "CONALEP" },
+    { "id": 5, "nombre": "Blanca Torres", "escuela": "ICO" },
+    { "id": 6, "nombre": "Ricardo Díaz", "escuela": "CBTIS" },
+    { "id": 7, "nombre": "Camila Fernández", "escuela": "UPSIN" },
+    { "id": 8, "nombre": "Gilberto Ramírez", "escuela": "UAS" },
+    { "id": 9, "nombre": "Valeria Campos", "escuela": "ITMAZ" },
+    { "id": 10, "nombre": "Martín Rojas", "escuela": "CBTIS" }
+  ]
